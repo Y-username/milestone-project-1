@@ -1,62 +1,131 @@
 <!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="en-us">
+<html lang="en">
 
 <head>
-<meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
-}
-
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
-
-</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="assets/main.css" type="text/css" />
+	<title>HAN.YJ | Space</title>
 </head>
 
 <body>
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
+	<!---header--->
+	<header>
+		<nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top" style="padding: 0">
+			<div class="container col-10 col-lg-8">
+				<!---navbar logo--->
+				<a class="navbar-brand" href="#" alt="navbarlogo" style="padding: 0"><img class="image-fluid" src="assets/logo.png" alt="Han.YJ logo"></a>
 
-myButton.addEventListener('click', doSomething, false)
+				<!---navbar toggle button--->
+				<button type="button" class="btn collapsed d-block d-sm-none ml-auto" data-toggle="collapse" data-target="#navbar-collapse-button" aria-controls="navbar-collapse-button" aria-expanded="falsh">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="navbar-toggler-icon"></span>
+  				</button>
 
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
+				<!---navbar collapse-down--->
+				<div class="collapse d-none d-sm-block" id="navbar-collapse-button">
+					<ul class="nav navbar-nav mr-auto">
+						<li class="nav-item ml-3 active"><a href="#">Home</a></li>
+						<li class="nav-item ml-3"><a href="#">Blog</a></li>
+						<li class="nav-item ml-3"><a href="#">About</a></li>
+						<li class="nav-item ml-3"><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<ul class="nav navbar-media list-inline social-links ml-auto d-none d-sm-inline">
+					<li class="list-inline-item mr-3">
+						<a target="_blank" href="#">
+	                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+	                        <span class="sr-only">Facebook</span>
+	                    </a>
+					</li>
+					<li class="list-inline-item mr-3">
+						<a target="_blank" href="#">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+
+		<!---home page--->
+		<section>
+			<h2>SPACE | HAN.YJ</h2>
+			<hr>
+			<p>This landing page is build up to record my growing path to Full Stack Developer</p>
+			<button>Read More in Blog</button>
+		</section>
+
+		<!---about page--->
+		<section>
+			<div class="row">
+				<div class="col-10 offset-md-2">
+					<h3 class="name">Han Yajing</h3>
+					<p class="identity">Full Stack Developer Student</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-5">
+					<p>
+						I have joined Code Institute as a student of Full Stack Developer in 2018 December.<br> 
+					At end of 2017, I have finished my master in environmental science. And had one year experience in Luxury Industry.<br> 
+					The video explains why I have jumped into different area several times. And really looking forward to get connected with similar minded people.
+					</p>
+					<Button>Get in Contact</Button>
+				</div>
+				<div class="col-5">
+					<video src="#" width="100px" height="100px" border="1px solid">
+					</video>
+				</div>
+			</div>
+		</section>
+
+		<!---contact page--->
+		<section>
+			<form class="col-10 offset-1 col-md-6 offset-md-3">
+				<div class="form-group">
+					<label for="fullnameinput">Fullname</label>
+					<input type="text" name="name" class="form-control" placeholder="Fullname"/>
+				</div>
+				<div class="form-group">
+					<label for="emailinput">Email</label>
+					<input type="email" name="email" class="form-control" id="emailinput" aria-describedby="emailexample" placeholder="Email"/>
+					<small id="emailexample" class="form-text text-muted">example@example.com</small>
+				</div>
+				<div class="form-group">
+					<label for="messageinput">Message</label>
+					<textarea name="message" class="form-control" id="messageinput" row="7"></textarea>
+				</div>
+				<input type="submit" value="Send"/>
+			</form>
+
+		</section>
+	</main>
+
+	<!---footer--->
+	<footer class="container-fluid fixed-bottom" style="background: grey; margin-top:50px; margin-bottom: 0; color:#999; border-top:1px solid #e5e5e5; text-align:center;">
+		<div class="row">
+			<div class="col-3 offset-2">Han.YJ</div>
+			<div class="col-5">
+			<p>Address: Rupprechtstr.99 12345 Berlin</p>
+			<p>Email: han.yj@gmail.com</P>
+			<p>Phone: +4912345678</p>
+			</div>
+		</div>
+	</footer>
 
 </body>
+
 </html>
