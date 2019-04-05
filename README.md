@@ -12,9 +12,12 @@ This website is build under the purpose of setting up my own space to record my 
 #### Feautrens
 
 #### Technology Used
-
+HTML
+CSS
+Bootstrap
 #### Testing
 
 #### Deployments
 
 #### Credits
+Logo made by [freelogodesign](https://www.freelogodesign.org)

@@ -58,8 +58,7 @@
 			</div>
 		</nav>
 	</header>
-	<main>
-
+	<main class="container col-10 col-lg-8">
 		<!---home page--->
 		<section>
 			<h2>SPACE | HAN.YJ</h2>
@@ -67,30 +66,33 @@
 			<p>This landing page is build up to record my growing path to Full Stack Developer</p>
 			<button>Read More in Blog</button>
 		</section>
+		<hr>
 
 		<!---about page--->
 		<section>
 			<div class="row">
-				<div class="col-10 offset-md-2">
+				<div class="col-10">
 					<h3 class="name">Han Yajing</h3>
 					<p class="identity">Full Stack Developer Student</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-5">
+				<div class="col col-lg-6 d-block">
 					<p>
-						I have joined Code Institute as a student of Full Stack Developer in 2018 December.<br> 
-					At end of 2017, I have finished my master in environmental science. And had one year experience in Luxury Industry.<br> 
-					The video explains why I have jumped into different area several times. And really looking forward to get connected with similar minded people.
+					I have joined Code Institute as a student of Full Stack Developer in 2018 December.<br><br> 
+					At end of 2017, I have finished my master in environmental science. And had one year experience in Luxury Industry.<br><br>  
+					The <a href="#videopage">video</a> explains why I have jumped into different area several times. And really looking forward to get connected with similar minded people.
 					</p>
 					<Button>Get in Contact</Button>
 				</div>
-				<div class="col-5">
-					<video src="#" width="100px" height="100px" border="1px solid">
-					</video>
+				<div class="col col-lg-6 d-none d-md-block" styel="border: 1px solid grey">
+					<iframe src="#videopage" width="100%" height="100%" frameborder="1px" allowfullscreen sandbox>
+						<p><a href="#videopage">clike here if browser do not support iframe</a></p>
+					</iframe>
 				</div>
 			</div>
 		</section>
+		<hr>
 
 		<!---contact page--->
 		<section>
@@ -117,15 +119,17 @@
 	<!---footer--->
 	<footer class="container-fluid fixed-bottom" style="background: grey; margin-top:50px; margin-bottom: 0; color:#999; border-top:1px solid #e5e5e5; text-align:center;">
 		<div class="row">
-			<div class="col-3 offset-2">Han.YJ</div>
-			<div class="col-5">
-			<p>Address: Rupprechtstr.99 12345 Berlin</p>
-			<p>Email: han.yj@gmail.com</P>
-			<p>Phone: +4912345678</p>
+			<P class="container col-10 col-lg-8">Han.YJ</p>
+		</div>
+		<div class="row">
+			<div class="container col-10 col-lg-8">
+			<span>Address: Rupprechtstr.99 12345 Berlin</span> 
+			<span>Email: han.yj@gmail.com</span>
+			<span>Phone: +4912345678</span>
 			</div>
 		</div>
 	</footer>
-
+	
 </body>
 
 </html>
