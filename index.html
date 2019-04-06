@@ -13,123 +13,144 @@
 </head>
 
 <body>
-	<!---header--->
-	<header>
-		<nav class="navbar navbar-light bg-light navbar-expand-sm fixed-top" style="padding: 0">
-			<div class="container col-10 col-lg-8">
-				<!---navbar logo--->
-				<a class="navbar-brand" href="#" alt="navbarlogo" style="padding: 0"><img class="image-fluid" src="assets/logo.png" alt="Han.YJ logo"></a>
+	<!---home page--->
+	<div class="homepage" id="homepage">
+		<!---header--->
+		<header id="header">
+			<nav class="navbar navbar-light navbar-expand-md fixed-top" style="padding: 0">
+				<div class="container clo-s-10 col-lg-8">
+					<!---navbar logo--->
+					<a class="navbar-brand" href="#" alt="navbarlogo" style="margin-left: 20px"><img class="image-fluid" src="assets/images/logo.png" alt="Han.YJ logo"></a>
 
-				<!---navbar toggle button--->
-				<button type="button" class="btn collapsed d-block d-sm-none ml-auto" data-toggle="collapse" data-target="#navbar-collapse-button" aria-controls="navbar-collapse-button" aria-expanded="falsh">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="navbar-toggler-icon"></span>
-  				</button>
+					<!---navbar toggle button--->
+					<button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="margin-right:20px">
+			        	<span class="navbar-toggler-icon"></span>
+  					</button>
 
-				<!---navbar collapse-down--->
-				<div class="collapse d-none d-sm-block" id="navbar-collapse-button">
-					<ul class="nav navbar-nav mr-auto">
-						<li class="nav-item ml-3 active"><a href="#">Home</a></li>
-						<li class="nav-item ml-3"><a href="#">Blog</a></li>
-						<li class="nav-item ml-3"><a href="#">About</a></li>
-						<li class="nav-item ml-3"><a href="#">Contact</a></li>
-					</ul>
-				</div>
-				<ul class="nav navbar-media list-inline social-links ml-auto d-none d-sm-inline">
-					<li class="list-inline-item mr-3">
-						<a target="_blank" href="#">
+					<!---navbar collapse-down--->
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<ul class="nav navbar-nav mr-auto" style="float: right">
+							<li class="nav-item ml-3 active"><a class="nav-link" href="#">Home</a></li>
+							<li class="nav-item ml-3"><a class="nav-link" href="#">Blog</a></li>
+							<li class="nav-item ml-3"><a class="nav-link" href="#aboutpage">About</a></li>
+							<li class="nav-item ml-3"><a class="nav-link" href="#contactpage">Contact</a></li>
+						</ul>
+					</div>
+
+					<!---social media--->
+					<ul class="nav list-inline social-links ml-auto d-none d-md-inline">
+						<li class="list-inline-item mr-3">
+							<a target="_blank" href="https://www.facebook.com/profile.php?id=100004365375150">
 	                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
 	                        <span class="sr-only">Facebook</span>
-	                    </a>
-					</li>
-					<li class="list-inline-item mr-3">
-						<a target="_blank" href="#">
+	                    	</a>
+						</li>
+						<li class="list-inline-item mr-3">
+							<a target="_blank" href="https://twitter.com/YolandaHan8">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
-                        </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#">
+                        	</a>
+						</li>
+						<li class="list-inline-item mr-3">
+							<a target="_blank" href="https://github.com/Y-username">
                             <i class="fab fa-github" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
-                        </a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</header>
-	<main class="container col-10 col-lg-8">
-		<!---home page--->
-		<section>
-			<h2>SPACE | HAN.YJ</h2>
-			<hr>
-			<p>This landing page is build up to record my growing path to Full Stack Developer</p>
-			<button>Read More in Blog</button>
-		</section>
-		<hr>
-
-		<!---about page--->
-		<section>
+                        	</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!---jumbotron--->
+		<div class="container-fluid homepage-container d-flex">
 			<div class="row">
-				<div class="col-10">
-					<h3 class="name">Han Yajing</h3>
-					<p class="identity">Full Stack Developer Student</p>
+				<div class="col">
+					<div class="jumbotron text-center">
+						<h2 class="text-uppercase">HAN.YJ | space</h2>
+						<hr class="jombotronline">
+						<p>This landing page is build up to record my growing path to <br><strong class="text-uppercase">Full Stack Developer</strong></p>
+						<a href="#" class="btn btn-outline-light" role="button" aria-pressed="true">
+							<i class="fas fa-rss"></i>
+							Read More in Blog
+						</a>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col col-lg-6 d-block">
-					<p>
-					I have joined Code Institute as a student of Full Stack Developer in 2018 December.<br><br> 
-					At end of 2017, I have finished my master in environmental science. And had one year experience in Luxury Industry.<br><br>  
-					The <a href="#videopage">video</a> explains why I have jumped into different area several times. And really looking forward to get connected with similar minded people.
-					</p>
-					<Button>Get in Contact</Button>
-				</div>
-				<div class="col col-lg-6 d-none d-md-block" styel="border: 1px solid grey">
-					<iframe src="#videopage" width="100%" height="100%" frameborder="1px" allowfullscreen sandbox>
-						<p><a href="#videopage">clike here if browser do not support iframe</a></p>
-					</iframe>
+		</div>
+	</div>
+	<!---about page--->
+	<div class="aboutpage" id="aboutpage">
+		<div class="row name-title-row">
+			<div class="col offset-sm-1 offset-lg-2">
+				<div class="name-title-container">
+					<p class="title">Full Stack Developer Student</p>
+					<h1 class="name text-uppercase">Han Yajing</h3>
 				</div>
 			</div>
-		</section>
-		<hr>
+		</div>
+		<!---spacing row--->
+		<div class="row spacing-row d-none d-md-block"></div>
+		<!---intro--->
+		<div class="row aboutme-row my-4">
+			<div class="col-10 offset-1 col-lg-3 offset-lg-2">
+				<p>
+					I have joined Code Institute as a student of Full Stack Developer in 2018 December.<br><br> At end of 2017, I have finished my master in environmental science. And had one year experience in Luxury Industry.<br><br>
+					<strong class="d-none d-lg-inline">The video on the right</strong><a href="#videopage" class="d-lg-none d-inline">This video</a> explains why I have jumped into different area several times. And really looking forward to get connected with similar
+					minded people.
+				</p>
+				<br>
+				<a href="#contactpage" class="btn btn-secondary" role="button" aria-pressed="true">
+					<i class="far fa-comments"></i>
+					Get in Contact
+				</a>
+			</div>
+			<div class="col-10 offset-1 col-lg-4 offset-lg-1 d-none d-lg-block embed-responsive">
+				<iframe src="#videopage" width="100%" height="100%" frameborder="1px" allowfullscreen sandbox>
+					<p><a href="#videopage">clike here if browser do not support iframe</a></p>
+				</iframe>
+			</div>
+		</div>
+		<div class="row spacing-row d-none d-md-block"></div>
+	</div>
+	<hr>
 
-		<!---contact page--->
-		<section>
+	<!---contact page--->
+	<div class="contactpage" id="contactpage">
+		<div class="container contactpage-container">
 			<form class="col-10 offset-1 col-md-6 offset-md-3">
 				<div class="form-group">
 					<label for="fullnameinput">Fullname</label>
-					<input type="text" name="name" class="form-control" placeholder="Fullname"/>
+					<input type="text" name="name" class="form-control" placeholder="Fullname" />
 				</div>
 				<div class="form-group">
 					<label for="emailinput">Email</label>
-					<input type="email" name="email" class="form-control" id="emailinput" aria-describedby="emailexample" placeholder="Email"/>
+					<input type="email" name="email" class="form-control" id="emailinput" aria-describedby="emailexample" placeholder="Email" />
 					<small id="emailexample" class="form-text text-muted">example@example.com</small>
 				</div>
 				<div class="form-group">
 					<label for="messageinput">Message</label>
 					<textarea name="message" class="form-control" id="messageinput" row="7"></textarea>
 				</div>
-				<input type="submit" value="Send"/>
+				<input type="submit" value="Send" />
 			</form>
-
-		</section>
-	</main>
-
+		</div>
+	</div>
 	<!---footer--->
-	<footer class="container-fluid fixed-bottom" style="background: grey; margin-top:50px; margin-bottom: 0; color:#999; border-top:1px solid #e5e5e5; text-align:center;">
+	<footer class="container-fluid" style="background: #adabab; color:#eee; margin-top:50px; margin-bottom: 0; border-top:1px solid #e5e5e5; text-align:center;">
 		<div class="row">
 			<P class="container col-10 col-lg-8">Han.YJ</p>
 		</div>
-		<div class="row">
+		<div class="row" style="margin-bottom:10px">
 			<div class="container col-10 col-lg-8">
-			<span>Address: Rupprechtstr.99 12345 Berlin</span> 
-			<span>Email: han.yj@gmail.com</span>
-			<span>Phone: +4912345678</span>
+				<span>Address: Rupprechtstr.99 12345 Berlin</span>
+				<span>Email: han.yj@gmail.com</span>
+				<span>Phone: +4912345678</span>
 			</div>
 		</div>
 	</footer>
-	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

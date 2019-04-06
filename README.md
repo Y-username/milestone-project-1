@@ -20,4 +20,6 @@ Bootstrap
 #### Deployments
 
 #### Credits
-Logo made by [freelogodesign](https://www.freelogodesign.org)
+Logo made by [freelogodesign](https://www.freelogodesign.org) <br>
+Background image is downloaded [here](https://www.pexels.com/photo/beach-dawn-dusk-ocean-189349/)<br>
+fullscreen background image [snippet](https://css-tricks.com/perfect-full-page-background-image/)
