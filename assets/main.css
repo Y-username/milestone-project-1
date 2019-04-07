@@ -102,13 +102,10 @@ body {
 .aboutme-row iframe {
     margin-bottom: 20px;
 }
-button[type="button"]  {
-    background-color: #212529a8;
-    color: white;
-}
 /*-----------------contactpage-----------------------*/
 .contactpage {
     background-color: #feb567db;
+    padding-bottom: 10vh;
 }
 .spacing-row {
     height: 20vh;
@@ -123,4 +120,34 @@ button[type="submit"] {
     margin-top: 11px;
     width: 10em;
     background-color: #212529a8;
+}
+
+/*-----------------Footer----------------------*/
+#footer-row {
+    background-color: #212529cf;
+    color: white;
+    padding: 20px;
+    font-family: "Roboto"; sans-serif;
+    font-size: smaller;
+}
+.footer-social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 11px 3px;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #212529;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.footer-social-links li a i:hover {
+    background-color: #29a645;
+}
+.footer-social-links li a {
+    color: #030303;
 }
