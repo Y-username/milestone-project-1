@@ -88,66 +88,85 @@
 				</div>
 			</div>
 		</div>
-		<!---spacing row--->
-		<div class="row spacing-row d-none d-md-block"></div>
-		<!---intro--->
-		<div class="row aboutme-row my-4">
-			<div class="col-10 offset-1 col-lg-3 offset-lg-2">
-				<p>
-					I have joined Code Institute as a student of Full Stack Developer in 2018 December.<br><br> At end of 2017, I have finished my master in environmental science. And had one year experience in Luxury Industry.<br><br>
-					<strong class="d-none d-lg-inline">The video on the right</strong><a href="#videopage" class="d-lg-none d-inline">This video</a> explains why I have jumped into different area several times. And really looking forward to get connected with similar
-					minded people.
-				</p>
-				<br>
-				<a href="#contactpage" class="btn btn-secondary" role="button" aria-pressed="true">
-					<i class="far fa-comments"></i>
-					Get in Contact
-				</a>
-			</div>
-			<div class="col-10 offset-1 col-lg-4 offset-lg-1 d-none d-lg-block embed-responsive">
-				<iframe src="#videopage" width="100%" height="100%" frameborder="1px" allowfullscreen sandbox>
-					<p><a href="#videopage">clike here if browser do not support iframe</a></p>
-				</iframe>
+		<!---about me & video--->
+		<div class="row aboutme-row" style="padding-left: 1rem; padding-top: 13vh; padding-bottom: 13vh; padding-right: 0">
+			<div class="col offset-1 offset-lg-2">
+				<div class="row align-items-center">
+					<div class="col-10 col-lg-5">
+						<p>
+							I have joined Code Institute as a student of Full Stack Developer in 2018 December.<br><br> At end of 2017, I have finished my master in environmental science. And had one year experience in Luxury Industry.<br><br>
+							<strong class="d-none d-lg-inline">The video below</strong><a href="#videopage" class="d-lg-none d-inline">This video</a> explains why I have jumped into different area several times. And really looking forward to get connected with similar minded
+							people.
+						</p>
+						<br>
+						<a href="#contactpage" class="btn btn-outline-secondary" role="button" aria-pressed="true">
+							<i class="far fa-comments"></i>
+							Get in Contact
+						</a>
+						
+					</div>
+					<div class="col col-lg-5 d-none d-lg-block align-self-center">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+							</iframe>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="row spacing-row d-none d-md-block"></div>
 	</div>
-	<hr>
 
 	<!---contact page--->
-	<div class="contactpage" id="contactpage">
-		<div class="container contactpage-container">
-			<form class="col-10 offset-1 col-md-6 offset-md-3">
-				<div class="form-group">
-					<label for="fullnameinput">Fullname</label>
-					<input type="text" name="name" class="form-control" placeholder="Fullname" />
-				</div>
-				<div class="form-group">
-					<label for="emailinput">Email</label>
-					<input type="email" name="email" class="form-control" id="emailinput" aria-describedby="emailexample" placeholder="Email" />
-					<small id="emailexample" class="form-text text-muted">example@example.com</small>
-				</div>
-				<div class="form-group">
-					<label for="messageinput">Message</label>
-					<textarea name="message" class="form-control" id="messageinput" row="7"></textarea>
-				</div>
-				<input type="submit" value="Send" />
-			</form>
-		</div>
-	</div>
-	<!---footer--->
-	<footer class="container-fluid" style="background: #adabab; color:#eee; margin-top:50px; margin-bottom: 0; border-top:1px solid #e5e5e5; text-align:center;">
+	<div class="container-fluid contactpage" id="contactpage">
+		<div class="row spacing-row"></div>
 		<div class="row">
-			<P class="container col-10 col-lg-8">Han.YJ</p>
-		</div>
-		<div class="row" style="margin-bottom:10px">
-			<div class="container col-10 col-lg-8">
-				<span>Address: Rupprechtstr.99 12345 Berlin</span>
-				<span>Email: han.yj@gmail.com</span>
-				<span>Phone: +4912345678</span>
+			<div class="col">
+				<h2 class="text-center text-uppercase mb-3">Let's get in touch!</h1>
+					<p class="text-center mb-5">Are you also a Full Stack beginer?<br>Are you looking for co-worker or teammate? <br> Do you have a project in mind?</p>
+					<div class="row center-form">
+						<div class="col col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+							<form>
+								<div class="form-group">
+									<label for="fullnameinput">Fullname</label>
+									<input type="text" name="name" class="form-control" placeholder="Fullname" required/>
+								</div>
+								<div class="form-group">
+									<label for="emailinput">Email</label>
+									<input type="email" name="email" class="form-control" id="emailinput" aria-describedby="emailexample" placeholder="Email" required/>
+									<small id="emailexample" class="form-text text-muted">example@example.com</small>
+								</div>
+								<div class="form-group">
+									<label for="messageinput">What's in your mind?</label>
+									<textarea name="message" class="form-control" id="messageinput" rows="5" placeholder="Text Me" required></textarea>
+								</div>
+								<div class="form-row text-center">
+									<div class="col col">
+										<button class="btn btn-secondary" type="submit" value="Send">SEND ME!</buttoN>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
 			</div>
 		</div>
-	</footer>
+		<!---footer--->
+		<div class="row align-items-end">
+			<footer class="col" style="background: #adabab; color:#eee; margin-top:50px; margin-bottom: 0; border-top:1px solid #e5e5e5; text-align:center;">
+				<div class="row">
+					<P class="col-10 col-lg-8">Han.YJ</p>
+				</div>
+				<div class="row" style="margin-bottom:10px">
+					<div class="col-10 col-lg-8">
+						<span>Address: Rupprechtstr.99 12345 Berlin</span>
+						<span>Email: han.yj@gmail.com</span>
+						<span>Phone: +4912345678</span>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

@@ -2,15 +2,14 @@
 
 body {
     font-family: 'Fjalla+One', sans-serif;
+    color: #212529a8;
 }
 
 .homepage {
     width: 100vw;
     height: 100vh;
 }
-
-.aboutpage,
-.contactpage {
+.aboutpage,.contactpage {
     width: 100vw;
     height: auto;
 }
@@ -18,11 +17,12 @@ body {
 /*-----------------navbar---------------------*/
 
 .navbar {
-    background-color: transparent;
+    background-color:transparent;
 }
 
 #navbarCollapse {
     margin-right: 20px;
+    background-color: transparent;
 }
 
 .social-links li a i {
@@ -73,7 +73,6 @@ body {
 }
 
 /*-----------------aboutpage-----------------------*/
-
 .name-title-row {
     height: 34vh;
     width: 100vw;
@@ -85,12 +84,13 @@ body {
     background-size: cover;
 }
 .name-title-container{
-    margin-left: 7px;
+    padding-left: 15px;
     margin-top: 19vh;
     color: white;
 }
-.spacing-row {
-    height: 10vh;
+.aboutme-row {
+    height: auto; 
+    padding: 1rem 4rem;
 }
 .name {
     font-size: 2rem;
@@ -99,6 +99,28 @@ body {
     font-size: 1.5rem;
     font-weight: 300;
 }
-.aboutme-col {
-    padding-right: 0;
+.aboutme-row iframe {
+    margin-bottom: 20px;
+}
+button[type="button"]  {
+    background-color: #212529a8;
+    color: white;
+}
+/*-----------------contactpage-----------------------*/
+.contactpage {
+    background-color: #feb567db;
+}
+.spacing-row {
+    height: 20vh;
+}
+.center-form {
+    padding-top: 0;
+    margin: 0 auto;
+    max-width: 80%;
+
+}
+button[type="submit"] {
+    margin-top: 11px;
+    width: 10em;
+    background-color: #212529a8;
 }
