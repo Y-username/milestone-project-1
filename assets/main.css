@@ -164,3 +164,29 @@ button[type="submit"] {
     padding-top: 12vh; 
     padding-bottom: 12vh; 
 }
+.video-header {
+    height: 37vh;
+    width: 100vw;
+    margin: 0;
+    background: url(images/background.jpg) no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.video-name-title {
+    padding-left: 15px;
+    margin-top: 9vh;
+    color: white;
+}
+/*-----------------blogpage----------------------*/
+#header {
+    height: 75px;
+    width: 100vw;
+    margin: 0;
+    background: url(images/background.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
