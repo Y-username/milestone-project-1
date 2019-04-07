@@ -35,12 +35,14 @@ body {
     text-align: center;
     color: #fafafa;
     background: rgb(0, 0, 0, 0.5);
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
-
+.social-links li a i:hover{
+    background-color: black;
+}
 /*-----------------homepage-----------------------*/
 
 #homepage {
@@ -146,8 +148,19 @@ button[type="submit"] {
     -o-transition: all 0.5s ease-in-out;
 }
 .footer-social-links li a i:hover {
-    background-color: #29a645;
+    background-color: #007bff;
 }
 .footer-social-links li a {
     color: #030303;
+}
+
+/*-----------------VedioPage----------------------*/
+.videopage {
+    width: 100vw;
+    height: auto;
+    padding: 0;
+}
+.video-row {
+    padding-top: 12vh; 
+    padding-bottom: 12vh; 
 }
