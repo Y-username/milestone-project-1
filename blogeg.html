@@ -1,67 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto" rel="stylesheet">
-	<link rel="stylesheet" href="assets/main.css" type="text/css" />
-	<title>HAN.YJ | Blog</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="assets/main.css" type="text/css" />
+    <title>HAN.YJ | Blog</title>
 </head>
-<body>
-    <!---header--->
-    <header id="header">
-        <nav class="navbar navbar-light navbar-expand-md fixed-top" style="padding: 0">
-            <div class="container clo-s-10 col-lg-8">
-                <!---navbar logo--->
-                <a class="navbar-brand" href="index.html" alt="navbarlogo" style="margin-left: 20px"><img class="image-fluid" src="assets/images/logo.png" alt="Han.YJ logo"></a>
 
-                <!---navbar toggle button--->
-                <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="margin-right:20px">
+<body>
+    <!---blogeg page--->
+    <div class="blogegpage">
+        <div class="container-fluid blogeg-header">
+            <!---header--->
+            <header>
+                <nav class="navbar navbar-light navbar-expand-md" style="padding: 0">
+                    <div class="container col-s-10 col-lg-8">
+                        <!---navbar logo--->
+                        <a class="navbar-brand" href="index.html" alt="navbarlogo" style="margin-left: 20px"><img class="image-fluid" src="assets/images/logo.png" alt="Han.YJ logo"></a>
+
+                        <!---navbar toggle button--->
+                        <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="margin-right:20px">
 			        	<span class="navbar-toggler-icon"></span>
   					</button>
-                <!---navbar collapse-down--->
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="nav navbar-nav mr-auto" style="float: right">
-                        <li class="nav-item ml-3 active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item ml-3"><a class="nav-link" href="#">Blog</a></li>
-                        <li class="nav-item ml-3"><a class="nav-link" href="index.html#aboutpage">About</a></li>
-                        <li class="nav-item ml-3"><a class="nav-link" href="index.html#contactpage">Contact</a></li>
-                    </ul>
-                </div>
-                <!---social media--->
-                <ul class="nav list-inline social-links ml-auto d-none d-md-inline">
-                    <li class="list-inline-item mr-3">
-                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100004365375150">
+
+                        <!---navbar collapse-down--->
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="nav navbar-nav mr-auto" style="float: right">
+                                <li class="nav-item ml-3 active"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item ml-3"><a class="nav-link" href="blog.html">Blog</a></li>
+                                <li class="nav-item ml-3"><a class="nav-link" href="index.html#aboutpage">About</a></li>
+                                <li class="nav-item ml-3"><a class="nav-link" href="index.html#contactpage">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <!---social media--->
+                        <ul class="nav list-inline social-links ml-auto d-none d-md-inline">
+                            <li class="list-inline-item mr-3">
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100004365375150">
 	                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
 	                        <span class="sr-only">Facebook</span>
 	                    </a>
-                    </li>
-                    <li class="list-inline-item mr-3">
-                        <a target="_blank" href="https://github.com/Y-username">
+                            </li>
+                            <li class="list-inline-item mr-3">
+                                <a target="_blank" href="https://github.com/Y-username">
                             <i class="fab fa-github" aria-hidden="true"></i>
                             <span class="sr-only">Github</span>
                     	</a>
-                    </li>
-                    <li class="list-inline-item mr-3">
-                        <a target="_blank" href="https://www.linkedin.com/in/yajing-han-94954757/">
+                            </li>
+                            <li class="list-inline-item mr-3">
+                                <a target="_blank" href="https://www.linkedin.com/in/yajing-han-94954757/">
                             <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                             <span class="sr-only">LinkedIn</span>
                     	</a>
-                    </li>
-                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <main class="container-fluid">
+            <div class="article-container">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8">
+                        <div class="row">
+                            <div class="col col-lg-12 col-xl-6">
+                                <article>
+                                    <h2>What is HTML?</h2>
+                                    <hr class="divider">
+                                    <h3 class="my-3">Definition</h3>
+                                    <p>HTML (hyperlink text markup language) is a <strong>markup language</strong> that defines the structure of the content. It is not a programming language.</p>
+                                    <p><strong>HyperText</strong> is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear —
+                                        i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.</p>
+                                    <p><strong>Markup</strong> is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example). HTML is a Language, as it has code-words and syntax like any other language.</p>
+                                    <p>The function of HTML realized by a series of <strong>Elements</strong>, which wrap the content inside and defines how the content behave and look like.</p>
+                                </article>
+                            </div>
+                            <div class="col d-none col-lg-12 d-lg-block col-xl-4 offset-xl-2 my-5 align-self-center">
+                                <div class="card" style="width: 18rem; height: auto; background-color: #f1f3f4;">
+                                    <img class="card-img-top" src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=code-coder-coding-270404.jpg&fm=jpg" alt="html image cap">
+                                    <div class="card-body embed-responsive mt-2">
+                                        <h5 class="card-title text-center mt-3">Audio</h5>
+                                        <h6 class="card-subtitle mb-2 text-center text-muted">What is HTML?</h6>
+                                        <audio controls class="align-center">
+                                          <source src="assets/audio/blogeg-audio.mp3" type="audio/mpeg">
+                                          <source src="assets/audio/blogeg-audio.ogg" type="audio/ogg">
+                                          <p>Your browser doesn't support HTML5 audio. Here is
+                                             a <a href="#">link to the audio</a> instead.</p>
+                                        </audio>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav>
-   </header> 
-   
-   
-   <!---footer--->
-    <footer class="container-fluid fixed-bottom">
+        </main>
+    </div>
+    <!---footer--->
+    <footer class="container-fluid align-bottom">
         <div class="row" id="footer-row">
             <div class="col-12 col-md-4 text-center align-self-center mb-3">
-                <a href="https://github.com/Y-username" class="btn btn-primary" role="button" aria-pressed="true">
+                <a target="_blank" href="https://github.com/Y-username" class="btn btn-primary" role="button" aria-pressed="true">
 				<i class="fab fa-github"></i>
 				<span>Check My Github</span>
 			</a>
@@ -77,12 +121,6 @@
                 </div>
                 <div class="row justify-content-center">
                     <ul class="nav list-inline footer-social-links">
-                        <li class="list-inline-item mr-3">
-                            <a target="_blank" href="https://github.com/Y-username">
-                                <i class="fab fa-github" aria-hidden="true"></i>
-                                <span class="sr-only">Github</span>
-                        	</a>
-                        </li>
                         <li class="list-inline-item mr-3">
                             <a target="_blank" href="https://www.linkedin.com/in/yajing-han-94954757/">
                                 <i class="fab fa-linkedin-in" aria-hidden="true"></i>
@@ -113,4 +151,5 @@
         </div>
     </footer>
 </body>
+
 </html>

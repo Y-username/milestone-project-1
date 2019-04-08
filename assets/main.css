@@ -9,7 +9,9 @@ body {
     width: 100vw;
     height: 100vh;
 }
-.aboutpage,.contactpage {
+
+.aboutpage,
+.contactpage {
     width: 100vw;
     height: auto;
 }
@@ -17,7 +19,7 @@ body {
 /*-----------------navbar---------------------*/
 
 .navbar {
-    background-color:transparent;
+    background-color: transparent;
 }
 
 #navbarCollapse {
@@ -40,9 +42,11 @@ body {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
-.social-links li a i:hover{
+
+.social-links li a i:hover {
     background-color: black;
 }
+
 /*-----------------homepage-----------------------*/
 
 #homepage {
@@ -75,6 +79,7 @@ body {
 }
 
 /*-----------------aboutpage-----------------------*/
+
 .name-title-row {
     height: 34vh;
     width: 100vw;
@@ -85,39 +90,49 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-.name-title-container{
+
+.name-title-container {
     padding-left: 15px;
     margin-top: 19vh;
     color: white;
 }
+
 .aboutme-row {
-    height: auto; 
+    height: auto;
     padding: 1rem 4rem;
 }
+
 .name {
     font-size: 2rem;
 }
+
 .title {
     font-size: 1.5rem;
     font-weight: 300;
 }
+
 .aboutme-row iframe {
     margin-bottom: 20px;
 }
+
 /*-----------------contactpage-----------------------*/
+
 .contactpage {
     background-color: #feb567db;
     padding-bottom: 10vh;
 }
+
 .spacing-row {
     height: 20vh;
 }
+
 .center-form {
     padding-top: 0;
     margin: 0 auto;
     max-width: 80%;
 
 }
+
 button[type="submit"] {
     margin-top: 11px;
     width: 10em;
@@ -125,13 +140,16 @@ button[type="submit"] {
 }
 
 /*-----------------Footer----------------------*/
+
 #footer-row {
     background-color: #212529cf;
     color: white;
     padding: 20px;
-    font-family: "Roboto"; sans-serif;
+    font-family: "Roboto";
+    sans-serif;
     font-size: smaller;
 }
+
 .footer-social-links li a i {
     width: 30px;
     height: 30px;
@@ -147,23 +165,28 @@ button[type="submit"] {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
 }
+
 .footer-social-links li a i:hover {
     background-color: #007bff;
 }
+
 .footer-social-links li a {
     color: #030303;
 }
 
 /*-----------------VedioPage----------------------*/
+
 .videopage {
     width: 100vw;
     height: auto;
     padding: 0;
 }
+
 .video-row {
-    padding-top: 12vh; 
-    padding-bottom: 12vh; 
+    padding-top: 12vh;
+    padding-bottom: 12vh;
 }
+
 .video-header {
     height: 37vh;
     width: 100vw;
@@ -174,19 +197,49 @@ button[type="submit"] {
     -o-background-size: cover;
     background-size: cover;
 }
+
 .video-name-title {
     padding-left: 15px;
     margin-top: 9vh;
     color: white;
 }
+
 /*-----------------blogpage----------------------*/
-#header {
-    height: 75px;
+.blog-header {
+    height: 70px;
     width: 100vw;
     margin: 0;
-    background: url(images/background.jpg) no-repeat top center fixed;
+    background: url(images/background.jpg) no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+/*-----------------blogpage----------------------*/
+.blogegpage {
+    width: 100vw;
+    min-height: 80vh;
+}
+.blogeg-header {
+    height: 70px;
+    width: 100vw;
+    margin: 0;
+    background: url(images/background.jpg) no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+main .article-container {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.divider {
+    border-top: 1.5px solid rgba(0, 0, 0, 1);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.article-container article h2 {
+    color: black;
 }
