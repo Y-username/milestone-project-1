@@ -204,7 +204,11 @@ button[type="submit"] {
     color: white;
 }
 
-/*-----------------blogpage----------------------*/
+/*-----------------blog page----------------------*/
+.blogpage {
+    width: 100vw;
+    min-height: 80vh;
+}
 .blog-header {
     height: 70px;
     width: 100vw;
@@ -215,8 +219,18 @@ button[type="submit"] {
     -o-background-size: cover;
     background-size: cover;
 }
-
-/*-----------------blogpage----------------------*/
+main .blog-container {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+}
+.blog-container .theme-row {
+    width: 265px;
+    height: 31px;
+    background-color: #feb567db;
+    border: 1px solid #feb567db;
+    border-radius: 13%;
+}
+/*-----------------blog example page----------------------*/
 .blogegpage {
     width: 100vw;
     min-height: 80vh;
@@ -242,4 +256,9 @@ main .article-container {
 }
 .article-container article h2 {
     color: black;
+}
+.divider-row {
+    width: 150px;
+    height: 30px;
+    background-color: #6b747d;
 }
