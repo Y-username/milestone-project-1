@@ -146,7 +146,7 @@ body {
 
 #footer-row {
     width: 100vw;  
-    background-color: #717376cc;
+    background-color: #69564fe8;
     color: white;
     margin: 0;
     padding-top: 20px;
@@ -268,23 +268,14 @@ form.searchbar button {
     padding: 0;
 }    
 /*-----------------blog example page----------------------*/
-.blogegpage {
+.blogpage {
     width: 100vw;
-    min-height: 80vh;
+    min-height: 85vh;
 }
-.blogeg-header {
-    height: 70px;
-    width: 100vw;
-    margin: 0;
-    background: url(images/background.jpg) no-repeat bottom center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-main .article-container {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+
+main.article-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .divider {
     border-top: 1.5px solid rgba(0, 0, 0, 1);
@@ -298,4 +289,12 @@ main .article-container {
     width: 150px;
     height: 30px;
     background-color: #6b747d;
+}
+.article-container .card {
+    max-width: 19rem;
+}
+@media(min-width: 1200px) {
+    .article-container .card {
+    float: right;
+}
 }

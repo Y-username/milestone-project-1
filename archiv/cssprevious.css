@@ -240,7 +240,7 @@ main .blog-container {
     height: 70px;
     width: 100vw;
     margin: 0;
-    background: url(images/background.jpg) no-repeat bottom center fixed;
+    background: url(../assets/images/background.jpg) no-repeat bottom center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

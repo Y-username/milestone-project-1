@@ -30,7 +30,7 @@
                     <div class="collapse navbar-collapse" id="blognavbarCollapse">
                         <ul class="nav navbar-nav mr-auto" id="collapselist">
                             <li class="nav-item ml-3 active"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item ml-3"><a class="nav-link" href="#">Blog</a></li>
+                            <li class="nav-item ml-3"><a class="nav-link" href="blog.html">Blog</a></li>
                             <li class="nav-item ml-3"><a class="nav-link" href="index.html#aboutpage">About</a></li>
                             <li class="nav-item ml-3"><a class="nav-link" href="index.html#contactpage">Contact</a></li>
                         </ul>
@@ -40,65 +40,58 @@
                     <ul class="nav list-inline social-links ml-auto d-none d-md-inline">
                         <li class="list-inline-item mr-3">
                             <a target="_blank" href="https://www.facebook.com/profile.php?id=100004365375150">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
                         </li>
                         <li class="list-inline-item mr-3">
                             <a target="_blank" href="https://github.com/Y-username">
-                    <i class="fab fa-github" aria-hidden="true"></i>
-                    <span class="sr-only">Github</span>
-            	</a>
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                                <span class="sr-only">Github</span>
+                        	</a>
                         </li>
                         <li class="list-inline-item mr-3">
                             <a target="_blank" href="https://www.linkedin.com/in/yajing-han-94954757/">
-                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-            	        </a>
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                	        </a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <section>
-            <div class="container clo-s-10 col-lg-8 search-container">
-                <form class="form-inline searchbar" action="action_page.php">
-                    <h4 class="mr-auto ml-1">BLOG</h4>
-                    <div class="searchbox ml-auto mr-2">
-                        <input type="text embed-responsive" placeholder=" Search.." name="search">
-                        <button type="submit ml-auto"><i class="fa fa-search"></i></button>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <main class="blog-main">
-            <div class="container clo-s-10 col-lg-8 blog-container">
-                <div class="media">
-                    <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=code-coder-coding-270404.jpg&fm=jpg" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
-                    <div class="media-body">
-                        <a class="btn" href="blogpage1.html"><h5 class="mt-0">What is HTML?</h5></a>
-                        <p>HTML (hyperlink text markup language) is a <strong>markup language</strong> that defines the structure of the content. It is not a programming language.</p>
-                    </div>
-                </div>
-                <div class="media">
-                    <img src="assets/images/css.png" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
-                    <div class="media-body">
-                        <a class="btn" href="blogpage2.html"><h5 class="mt-0">What is CSS?</h5></a>
-                        <p>CSS (cascading style sheets) is a <strong>style sheet language</strong>, neither programming language, nor markup language.</p>
-                    </div>
-                </div>
-                <div class="media">
-                    <img src="assets/images/javascript.png" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
-                    <div class="media-body">
-                        <a class="btn" href="blogpage3.html"><h5 class="mt-0">What is Javascript?</h5></a>
+        <main class="container article-container col-10 col-lg-8">
+            <div class="row">
+                <div class="col-12 col-xl-6">
+                    <article>
+                        <h2>What is Javascript?</h2>
+                        <hr class="divider">
+                        <h3 class="my-3">Definition</h3>
                         <p>JavaScript is a <strong>scripting language</strong> that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.</p>
-                    </div>
+                        <p>It is a lightweight <strong>interpreted programming language</strong>. In interpreted languages, the code is run from top to bottom and the result of running the code is immediately returned. You don't have to transform the code
+                            into a different form before the browser runs it.</p>
+                        <p><small>(Compiled languages on the other hand are transformed into another form before they are run by the computer.)</small></p>
+                        <h3 class="my-5">How JavaScript implement its function to Web browser?</h3>
+                        <p>There are two things help JavaScript implemented and executed to web browser: 
+                        <ul>
+                            <li>JavaScript engine in browser help compile JS code and get it to be executed by browser</li>
+                            <li>JavaScript DOM API help developers access to JS function</li>
+                        </ul>
+                        <img src="assets/images/js.png" alt="how JavaScript executed" width="100%" height="100%">
+                        </p>
+                    </article>
                 </div>
-                <div class="media">
-                    <img src="assets/images/jsbasic.png" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
-                    <div class="media-body">
-                        <a class="btn" href="blogpage4.html"><h5 class="mt-0">Javascript Basics</h5></a>
-                        <p>Variables are containers that you can store values in. variables are needed to do anything interesting in programming. If values couldn't change, then you couldn't do anything dynamic.</p>
+                <div class="col-12 col-xl-4 offset-xl-2 my-5 align-self-center embed-responsive">
+                    <div class="card bg-dark">
+                        <img class="card-img-top" src="assets/images/javascript.png" alt="html image cap">
+                        <div class="card-body embed-responsive">
+                            <audio controls class="mt-2 embed-responsive">
+                                  <source src="assets/audio/blogeg-audio.mp3" type="audio/mpeg">
+                                  <source src="assets/audio/blogeg-audio.ogg" type="audio/ogg">
+                                  <p>Your browser doesn't support HTML5 audio. Here is
+                                     a <a href="#">link to the audio</a> instead.</p>
+                            </audio>
+                        </div>
                     </div>
                 </div>
             </div>
