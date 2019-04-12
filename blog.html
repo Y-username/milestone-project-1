@@ -13,289 +13,148 @@
 </head>
 
 <body>
-    <!---blogeg page--->
     <div class="blogpage">
-        <div class="container-fluid blog-header">
-            <!---header--->
-            <header id="header-blog">
-                <nav class="navbar navbar-light navbar-expand-md" style="padding: 0">
-                    <div class="container clo-s-10 col-lg-8">
-                        <!---navbar logo--->
-                        <a class="navbar-brand" href="index.html" alt="navbarlogo" style="margin-left: 20px"><img class="image-fluid" src="assets/images/logo.png" alt="Han.YJ logo"></a>
+        <!---blog header--->
+        <header class="blog-header">
+            <nav class="navbar navbar-light navbar-expand-md">
+                <div class="container clo-s-10 col-lg-8">
+                    <!---navbar logo--->
+                    <a class="navbar-brand ml-3" href="index.html" alt="navbarlogo"><img class="image-fluid" src="assets/images/logo.png" alt="Han.YJ logo"></a>
 
-                        <!---navbar toggle button--->
-                        <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" style="margin-right:20px">
-			        	<span class="navbar-toggler-icon"></span>
-  					</button>
-                        <!---navbar collapse-down--->
-                        <div class="collapse navbar-collapse" id="navbarCollapse">
-                            <ul class="nav navbar-nav mr-auto" style="float: right">
-                                <li class="nav-item ml-3 active"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item ml-3"><a class="nav-link" href="#">Blog</a></li>
-                                <li class="nav-item ml-3"><a class="nav-link" href="index.html#aboutpage">About</a></li>
-                                <li class="nav-item ml-3"><a class="nav-link" href="index.html#contactpage">Contact</a></li>
-                            </ul>
-                        </div>
-                        <!---social media--->
-                        <ul class="nav list-inline social-links ml-auto d-none d-md-inline">
-                            <li class="list-inline-item mr-3">
-                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100004365375150">
-	                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
-	                        <span class="sr-only">Facebook</span>
-	                    </a>
-                            </li>
-                            <li class="list-inline-item mr-3">
-                                <a target="_blank" href="https://github.com/Y-username">
-                            <i class="fab fa-github" aria-hidden="true"></i>
-                            <span class="sr-only">Github</span>
-                    	</a>
-                            </li>
-                            <li class="list-inline-item mr-3">
-                                <a target="_blank" href="https://www.linkedin.com/in/yajing-han-94954757/">
-                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                    	</a>
-                            </li>
+                    <!---navbar toggle button--->
+                    <button type="button" class="navbar-toggler ml-auto mr-2" data-toggle="collapse" data-target="#blognavbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                	<span class="navbar-toggler-icon"></span>
+          		</button>
+
+                    <!---navbar collapse-down--->
+                    <div class="collapse navbar-collapse" id="blognavbarCollapse">
+                        <ul class="nav navbar-nav mr-auto" id="collapselist">
+                            <li class="nav-item ml-3 active"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item ml-3"><a class="nav-link" href="#">Blog</a></li>
+                            <li class="nav-item ml-3"><a class="nav-link" href="index.html#aboutpage">About</a></li>
+                            <li class="nav-item ml-3"><a class="nav-link" href="index.html#contactpage">Contact</a></li>
                         </ul>
                     </div>
-                </nav>
-            </header>
-        </div>
-        <main class="container-fluid">
-            <div class="blog-container">
-                <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8">
-                        <div class="row">
-                            <div class="col">
-                                <div class="row mb-4">
-                                    <h2 style="color: #ff974e">Blog & Vlog by Theme</h2>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-lg-4">
-                                        <h4><a href="#" class="badge badge-secondary"><i class="fas fa-code"></i> Programming Language</a></h4>
-                                        <div class="row navbar navbar-light">
-                                            <ul class="nav flex-column navbar-nav">
-                                                <li class="nav-item active">
-                                                    <a class="nav-link" href="blogeg.html"><i class="fas fa-arrow-right"> What is HTML?</i></a>
-                                                </li>
-                                                <li class="nav-item active">
-                                                    <a class="nav-link" href="#"><i class="fas fa-arrow-right"> Sample title longer</i></a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#"><i class="fas fa-arrow-right"> Sample title longest longest longest longest</i></a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#"><i class="fas fa-arrow-right"> Sample title longest longest longest longest longest longest longest longest</i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-4">
-                                        <h4><a href="#" class="badge badge-secondary"><i class="far fa-folder-open"></i> Coding Learning Hacks</a></h4>
-                                        <div class="row navbar navbar-light">
-                                            <ul class="nav flex-column navbar-nav">
-                                                <li class="nav-item active">
-                                                    <a class="nav-link" href="blogeg.html"><i class="fas fa-arrow-right"> How to learn HTML?</i></a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#"><i class="fas fa-arrow-right"> Sample title</i></a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#"><i class="fas fa-arrow-right"> Sample title</i></a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#"><i class="fas fa-arrow-right"> Sample title</i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-lg-4">
-                                        <h4><a href="#" class="badge badge-secondary"><i class="far fa-calendar-check"></i> Daily Reports for coding</a></h4>
-                                        <div class="row navbar navbar-light">
-                                            <ul class="nav flex-column navbar-nav">
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="blogeg.html"><i class="fas fa-arrow-right"> 2019-04-08</i></a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#"><i class="fas fa-arrow-right"> Sample title</i></a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#"><i class="fas fa-arrow-right"> Sample title</i></a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" href="#"><i class="fas fa-arrow-right"> Sample title</i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row my-4">
-                                    <h2 style="color: #ff974e">Blog & Vlog by Time</h2>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 col-md-10">
-                                        <div class="row">
-                                            <h4><a href="#" class="badge badge-secondary"><i class="fas fa-calendar-alt"></i> 2019 April </a></h4>
-                                        </div>
-                                        <div class="row">
-                                            <div class="media">
-                                                <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=code-coder-coding-270404.jpg&fm=jpg" class="align-self-center mr-3" alt="html-picture" width="60px" height="60px">
-                                                <div class="media-body">
-                                                    <h5 class="mt-0">What is HTML?</h5>
-                                                    <p>HTML (hyperlink text markup language) is a <strong>markup language</strong> that defines the structure of the content. It is not a programming language.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="media">
-                                                <img src="assets/images/sample.jpg" class="align-self-center mr-3" alt="html-picture" width="60px" height="60px">
-                                                <div class="media-body">
-                                                    <h5 class="mt-0">Here is a title</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <h4><a href="#" class="badge badge-secondary"><i class="fas fa-calendar-alt"></i> 2019 March </a></h4>
-                                        </div>
-                                        <div class="row">
-                                            <div class="media">
-                                                <img src="assets/images/logo.png" class="align-self-center mr-3" alt="html-picture" width="60px" height="60px">
-                                                <div class="media-body">
-                                                    <h5 class="mt-0">Here is a title</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="media">
-                                                <img src="assets/images/background.jpg" class="align-self-center mr-3" alt="html-picture" width="60px" height="60px">
-                                                <div class="media-body">
-                                                    <h5 class="mt-0">Here is a title</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="media">
-                                                <img src="https://www.trinityelectricalsiouxcity.com/wp-content/uploads/2015/09/Placeholder.png" class="align-self-center mr-3" alt="html-picture" width="60px" height="60px">
-                                                <div class="media-body">
-                                                    <h5 class="mt-0">Here is a title</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing Quibusdam molestiae odio est eipsa? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="media">
-                                                <img src="assets/images/sample.jpg" class="align-self-center mr-3" alt="html-picture" width="60px" height="60px">
-                                                <div class="media-body">
-                                                    <h5 class="mt-0">Here is a title</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <h4><a href="#" class="badge badge-secondary"><i class="fas fa-calendar-alt"></i> 2019 February </a></h4>
-                                        </div>
-                                        <div class="row">
-                                            <div class="media">
-                                                <img src="https://www.trinityelectricalsiouxcity.com/wp-content/uploads/2015/09/Placeholder.png" class="align-self-center mr-3" alt="html-picture" width="60px" height="60px">
-                                                <div class="media-body">
-                                                    <h5 class="mt-0">Here is a title</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="media">
-                                                <img src="https://www.trinityelectricalsiouxcity.com/wp-content/uploads/2015/09/Placeholder.png" class="align-self-center mr-3" alt="html-picture" width="60px" height="60px">
-                                                <div class="media-body">
-                                                    <h5 class="mt-0">Here is a title</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="media">
-                                                <img src="https://www.trinityelectricalsiouxcity.com/wp-content/uploads/2015/09/Placeholder.png" class="align-self-center mr-3" alt="html-picture" width="60px" height="60px">
-                                                <div class="media-body">
-                                                    <h5 class="mt-0">Here is a title</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, unde. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="media">
-                                                <img src="https://www.trinityelectricalsiouxcity.com/wp-content/uploads/2015/09/Placeholder.png" class="align-self-center mr-3" alt="html-picture" width="60px" height="60px">
-                                                <div class="media-body">
-                                                    <h5 class="mt-0">Here is a title</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 d-none d-md-block col-md-1 offset-md-1">
-                                        <div class="row">
-                                            <h4><a href="#header-blog" class="badge badge-danger" style="position: fixed">Back to top</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                    <!---social media--->
+                    <ul class="nav list-inline social-links ml-auto d-none d-md-inline">
+                        <li class="list-inline-item mr-3">
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100004365375150">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a target="_blank" href="https://github.com/Y-username">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                    <span class="sr-only">Github</span>
+            	</a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a target="_blank" href="https://www.linkedin.com/in/yajing-han-94954757/">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+            	        </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <div class="container clo-s-10 col-lg-8 search-container">
+                <form class="form-inline searchbar" action="action_page.php">
+                    <h4 class="mr-auto ml-1">BLOG</h4>
+                    <div class="searchbox ml-auto mr-2">
+                        <input type="text embed-responsive" placeholder=" Search.." name="search">
+                        <button type="submit ml-auto"><i class="fa fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <main class="blog-main">
+            <div class="container clo-s-10 col-lg-8 blog-container">
+                <div class="media">
+                    <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=code-coder-coding-270404.jpg&fm=jpg" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
+                    <div class="media-body">
+                        <a class="btn" href="blogeg.html"><h5 class="mt-0">What is HTML?</h5></a>
+                        <p>HTML (hyperlink text markup language) is a <strong>markup language</strong> that defines the structure of the content. It is not a programming language.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <img src="assets/images/sample.jpg" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
+                    <div class="media-body">
+                        <a class="btn" href="blogeg.html"><h5 class="mt-0">What is HTML?</h5></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <img src="assets/images/logo.png" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
+                    <div class="media-body">
+                        <a class="btn" href="blogeg.html"><h5 class="mt-0">What is HTML?</h5></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <img src="assets/images/background.jpg" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
+                    <div class="media-body">
+                        <a class="btn" href="blogeg.html"><h5 class="mt-0">What is HTML?</h5></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam molestiae odio est eipsa?</p>
                     </div>
                 </div>
             </div>
         </main>
-        <!---footer--->
-        <footer class="container-fluid">
-            <div class="row" id="footer-row">
-                <div class="col-12 col-md-4 text-center align-self-center mb-3">
-                    <a target="_blank" href="https://github.com/Y-username" class="btn btn-primary" role="button" aria-pressed="true">
-				<i class="fab fa-github"></i>
-				<span>Check My Github</span>
-			</a>
+    </div>
+    <!---footer--->
+    <footer>
+        <div class="row" id="footer-row">
+            <!---footer github--->
+            <div class="col-12 col-md-4 text-center align-self-center mt-2 mb-3">
+                <a target="_blank" href="https://github.com/Y-username" class="btn btn-primary" role="button" aria-pressed="true">
+				    <i class="fab fa-github"></i>
+    				<span>Check My Github</span>
+    			</a>
+            </div>
+
+            <!---footer general contact--->
+            <div class="col-12 col-md-4 text-center">
+                <p><i class="fas fa-map-marker-alt"></i> Rupprechtstr.99 12345 Berlin</p>
+                <p><i class="fas fa-envelope"></i> han.yj@gmail.com</p>
+                <p><i class="fas fa-mobile-alt"></i> +4912345678</p>
+            </div>
+
+            <!---footer social media--->
+            <div class="col-12 col-md-4 my-3 align-self-center">
+                <div class="row justify-content-center">
+                    <p>Social Media</p>
                 </div>
-                <div class="col-12 col-md-4 text-center">
-                    <p><i class="fas fa-map-marker-alt"></i> Rupprechtstr.99 12345 Berlin</p>
-                    <p><i class="fas fa-envelope"></i> han.yj@gmail.com</p>
-                    <p><i class="fas fa-mobile-alt"></i> +4912345678</p>
-                </div>
-                <div class="col-12 col-md-4 my-3 align-self-center">
-                    <div class="row justify-content-center">
-                        <p>Social Media</p>
-                    </div>
-                    <div class="row justify-content-center">
-                        <ul class="nav list-inline footer-social-links">
-                            <li class="list-inline-item mr-3">
-                                <a target="_blank" href="https://www.linkedin.com/in/yajing-han-94954757/">
+                <div class="row justify-content-center">
+                    <ul class="nav list-inline footer-social-links">
+                        <li class="list-inline-item mr-3">
+                            <a target="_blank" href="https://www.linkedin.com/in/yajing-han-94954757/">
                                 <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                                 <span class="sr-only">LinkedIn</span>
                         	</a>
-                            </li>
-                            <li class="list-inline-item mr-3">
-                                <a target="_blank" href="#">
-                                <i class="fas fa-rss" aria-hidden="true"></i>
-                                <span class="sr-only">Blog</span>
-                        	</a>
-                            </li>
-                            <li class="list-inline-item mr-3">
-                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100004365375150">
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a target="_blank" href="https://www.facebook.com/profile.php?id=100004365375150">
                                 <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook</span>
                         	</a>
-                            </li>
-                            <li class="list-inline-item mr-3">
-                                <a target="_blank" href="https://twitter.com/YolandaHan8">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a target="_blank" href="https://twitter.com/YolandaHan8">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
                         	</a>
-                            </li>
-                        </ul>
-                    </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
