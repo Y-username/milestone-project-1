@@ -28,7 +28,7 @@ nav.navbar {
 }
 
 #navbarCollapse {
-    margin-right: 20px;
+    margin-right: 10px;
     background-color: transparent;
 }
 
@@ -243,9 +243,7 @@ nav.navbar {
     -o-background-size: cover;
     background-size: cover;
 }
-#collapselist {
-    float: right;
-}
+
 section .search-container {
     padding: 15px;
     border-bottom: 1px solid #e9ecef;
@@ -270,7 +268,15 @@ form.searchbar button {
     background-color: transparent;
     display: inline;
 }
-
+.blog-main {
+    margin: 0;
+}
+@media (min-width: 760px) {
+    .blog-main {
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+    }
+}
 .blog-main .blog-container {
     padding-top: 2.5rem;
     padding-left: 2rem;
@@ -290,13 +296,14 @@ form.searchbar button {
 /*-----------------blog example page----------------------*/
 .blogpage {
     width: 100vw;
-    min-height: 85vh;
+    min-height: 88vh;
 }
 
 main.article-container {
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 30px;
 }
+
 .divider {
     border-top: 1.5px solid rgba(0, 0, 0, 1);
     margin-top: 2rem;
