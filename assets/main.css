@@ -22,14 +22,18 @@ body {
     margin: 0;
 }
 /*-----------------navbar---------------------*/
-
-.navbar {
+nav.navbar {
     background-color: transparent;
+    padding: 0;
 }
 
 #navbarCollapse {
     margin-right: 20px;
     background-color: transparent;
+}
+
+#navbarCollapse ul.navbar-nav {
+    float: right;
 }
 
 .social-links li a i {
@@ -104,7 +108,7 @@ body {
 
 .name-title-container {
     padding-left: 15px;
-    margin-top: 19vh;
+    margin-top: 12vh;
     color: white;
 }
 
