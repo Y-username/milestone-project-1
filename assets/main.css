@@ -73,6 +73,12 @@ body {
     margin-top: 15%
 }
 
+@media (max-width: 380px) {
+    .homepage-container .row {
+    margin-top: 60%
+}
+}
+
 .jumbotron {
     background-color: #18181961;
     color: white;
@@ -296,7 +302,7 @@ main.article-container {
 .article-container .card {
     max-width: 19rem;
 }
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
     .article-container .card {
     float: right;
 }
