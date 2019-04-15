@@ -109,7 +109,11 @@ nav.navbar {
     margin-top: 19vh;
     color: white;
 }
-
+@media (max-width: 350px) {
+    .name-title-container {
+        margin-top: 12vh;
+    }
+}
 .aboutme-row {
     height: auto;
     padding-left: 1rem;
@@ -136,27 +140,22 @@ nav.navbar {
 .contactpage {
     background-color: #feb567db;
     padding-bottom: 20vh;
-}
-
-.spacing-row {
-    height: 20vh;
+    padding-top: 20vh;
 }
 
 .center-form {
     padding-top: 0;
     margin: 0 auto;
     max-width: 80%;
-
 }
 
-#contactpage button[type="submit"] {
+.contactpage button[type="submit"] {
     margin-top: 11px;
     width: 10em;
     background-color: #212529a8;
 }
 
 /*-----------------Footer----------------------*/
-
 #footer-row {
     width: 100vw;  
     background-color: #69564fe8;
