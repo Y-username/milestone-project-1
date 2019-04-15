@@ -2,17 +2,676 @@
 body {
     font-family: 'Fjalla+One', sans-serif;
     color: #212529a8;
+    margin: 0;
 }
 
 .homepage {
     width: 100vw;
     height: 100vh;
+    overflow-x:hidden; 
 }
 
 .aboutpage,
 .contactpage {
     width: 100vw;
     height: auto;
+    overflow-x:hidden; .
+    
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+/*-----------------navbar---------------------*/
+
+.navbar {
+    background-color: transparent;
+}
+
+#navbarCollapse {
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+.social-links li a i {
+    width: 20px;
+    height: 20px;
+    padding: 6px 1px;
+    border-radius: 30%;
+    font-size: 12px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: rgb(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: black;
+}
+
+/*-----------------homepage-----------------------*/
+
+#homepage {
+    background: url(images/background.jpg) no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.homepage-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-container .row {
+    margin-top: 15%
+}
+
+.jumbotron {
+    background-color: #18181961;
+    color: white;
+}
+
+.jombotronline {
+    width: 150px;
+    border-top: 1.5px solid white;
+}
+
+/*-----------------aboutpage-----------------------*/
+
+.name-title-row {
+    height: 34vh;
+    width: 100vw;
+    margin: 0;
+    background: url(images/background.jpg) no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.name-title-container {
+    padding-left: 15px;
+    margin-top: 19vh;
+    color: white;
+}
+
+.aboutme-row {
+    height: auto;
+    padding: 1rem 4rem;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.aboutme-row iframe {
+    margin-bottom: 20px;
+}
+
+/*-----------------contactpage-----------------------*/
+
+.contactpage {
+    background-color: #feb567db;
+    padding-bottom: 10vh;
+}
+
+.spacing-row {
+    height: 20vh;
+}
+
+.center-form {
+    padding-top: 0;
+    margin: 0 auto;
+    max-width: 80%;
+
+}
+
+#contactpage button[type="submit"] {
+    margin-top: 11px;
+    width: 10em;
+    background-color: #212529a8;
+}
+
+/*-----------------Footer----------------------*/
+
+#footer-row {
+    width: 100vw;  
+    background-color: #69564fe8;
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Roboto"; sans-serif;
+    font-size: smaller;
+}
+
+.footer-social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 11px 3px;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #212529;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.footer-social-links li a i:hover {
+    background-color: #007bff;
+}
+
+.footer-social-links li a {
+    color: #030303;
+}
+
+/*-----------------VedioPage----------------------*/
+
+.videopage {
+    width: 100vw;
+    height: auto;
+    padding: 0;
+}
+
+.video-row {
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+}
+
+.video-header {
+    height: 37vh;
+    width: 100vw;
+    margin: 0;
+    background: url(images/background.jpg) no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video-name-title {
+    padding-left: 15px;
+    margin-top: 9vh;
+    color: white;
+}
+
+/*-----------------blog page----------------------*/
+.blogpage {
+    width: 100vw;
+    min-height: 90vh;
+}
+.blog-header {
+    margin: 0;
+    background: url(images/background.jpg) no-repeat bottom center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#collapselist {
+    float: right;
+}
+section .search-container {
+    padding: 15px;
+    border-bottom: 1px solid #e9ecef;
+}
+form.searchbar h4 {
+    color: #000000b3;
+    margin: 0;
+}
+form.searchbar div.searchbox {
+    max-width: 240px;
+    margin: 0;
+}
+form.searchbar input[type=text] {
+    border: none;
+    display: inline;
+}
+form.searchbar button {
+    border: none;
+    float: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: transparent;
+    display: inline;
+}
+
+.blog-main .blog-container {
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2.5rem;
+}
+.blog-container div.media {
+    padding-top: 2.5em;
+    padding-bottom: -0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-bottom: 1px solid #e9ecef;
+}    
+.media-body a.btn {
+    padding: 0;
+}    
+/*-----------------blog example page----------------------*/
+.blogpage {
+    width: 100vw;
+    min-height: 85vh;
+}
+
+main.article-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.divider {
+    border-top: 1.5px solid rgba(0, 0, 0, 1);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.article-container article h2 {
+    color: black;
+}
+.divider-row {
+    width: 150px;
+    height: 30px;
+    background-color: #6b747d;
+}
+.article-container .card {
+    max-width: 19rem;
+}
+@media(min-width: 1200px) {
+    .article-container .card {
+    float: right;
+}
+}    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 .container-fluid {
