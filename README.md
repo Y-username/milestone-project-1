@@ -20,7 +20,7 @@ The top three purpose are realized by blog pages while the last purpose can be r
 For writer.as the blog navigation page and blog pages as already build, it is easy to use them as template, create new blogs and update the navigation page.<br>
 For audience, the blog page and landing page are clearly separated. They can either browse the blog navigation page and find content they need, or being quickly informed by writer intend, or get connected in multiple ways.
 #### Mockup
-See mockups are [here](https://github.com/Y-username/milestone-project-1/blob/master/assets/images/mockups/Home.png)
+See mockups [here](https://github.com/Y-username/milestone-project-1/blob/master/assets/images/mockups/Home.png)
 
 ## Feautrens
 
@@ -43,10 +43,48 @@ See mockups are [here](https://github.com/Y-username/milestone-project-1/blob/ma
 - Bootstrap 4.3
 
 ## Testing
+#### Responsive testing
+The website is tested in mobile(iphone5, iphone8, Samsung S9), iPad(iPad Air2), laptop(Mac Pro) and monitor(Sharp LCD) size browser. It is well displayed in all device.
+#### Different browser testing
+The website is opened in Safari, Google Chrome, FireFox and Internet Explorer, the content is all well displayed.
+#### Function testing
+##### Navbar
+- Navbar logo in landing page lead to Home page, navbar logo in blog pages lead to Blog Navigation page
+- About, Blog and Contact in navbar lead to relative pages as well
+- Social media icon opens corresponding social media in a new tab
+
+##### Footer
+- Footer button in each page opens the corresponding page in a new tab
+- Social media icon opens corresponding social media in a new tab
+
+##### Content
+- Buttons in each page are all functional. "Read more in blog" button opens blog page in a new tab; "Get in contact" button lead to contact page, "Send Me" button checks if content and email filled in form valid, and work as submit
+- Video and Audio are all functional. Video also support fullscreen
+- Search bar in blog navigation page is not functional at present, but refresh the page when click search icon
+- Media list in blog navigation page are all clickable, and link to corresponding blog page
+- Logo in each blog page lead back to Blog Navigation page instead of Home page, as a more intuitive function
 
 ## Deployments
+The website project is hosted by GitHub pages, deployed directly in master branch. <br>
+It is mainly consiste of 
+- html files for landing page (index.html) and blog pages (blog.html, blogpage1.html, blogpage2.html, blogpage3.html, blogpage4.html)
+- assets folder including main.css, images and audio files
+- archiv is the folder for previous built page which are abandoned to use, but save for reference
+
+To run locally, please go to <kbd>Github Pages</kbd> in <kbd>Settings</kbd> of this repository and copy the address https://y-username.github.io/milestone-project-1/ into your browser.<br>
 
 ## Credits
-Logo made by [freelogodesign](https://www.freelogodesign.org) <br>
-Background image is downloaded [here](https://www.pexels.com/photo/beach-dawn-dusk-ocean-189349/)<br>
-fullscreen background image [snippet](https://css-tricks.com/perfect-full-page-background-image/)
+#### Content 
+The website is designed and wrote by myself.<br>
+Content of blogs is processed by myself, the orginal information comes from [MDN web docs](https://developer.mozilla.org/en-US/) and [wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+#### Media
+Logo made by myself using [freelogodesign](https://www.freelogodesign.org) <br>
+Background image is downloaded in [Pexels](https://www.pexels.com/photo/beach-dawn-dusk-ocean-189349/)<br>
+Image in [What is Javascript](https://milestone-project-1-yolanda1999.c9users.io/blogpage3.html) is made by myself in [visual-paradigm](https://online.visual-paradigm.com/)<br>
+Image in audio cards are from [google image](https://www.google.de/imghp?hl=en&tab=ri)
+#### Acknowledgements
+Fullscreen design was inspired by [this](https://www.youtube.com/watch?v=ZDcMe-uMAXI) tutorial<br>
+Responsive navbar is originally from [Bootstrap example](https://getbootstrap.com/docs/4.3/components/navbar/#supported-content)<br>
+Fullscreen background image setting was fund in this [snippet](https://css-tricks.com/perfect-full-page-background-image/)<br>
+Previous blog navigation page design was inspired by [Scott Young's blog](https://www.scotthyoung.com/blog/articles/)<br>
+Current blog navigation page design was inspired by [this post](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
