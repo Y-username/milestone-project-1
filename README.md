@@ -1,6 +1,6 @@
 # Han.YJ | Space
 First milestone project: Han.YJ | Space.<br><br>
-This is a blog website with a related landing page to fit for both private and public usage, .<br>
+This is a blog website with a related landing page to fit for both private and public usage.<br>
 The project is mainly consist of two parts: 
 1. landing page with a brief self-introduction and contact form 
 2. blog navigation page and the blog pages
@@ -22,8 +22,7 @@ For audience, the blog page and landing page are clearly separated. They can eit
 #### Mockup
 See mockups [here](https://github.com/Y-username/milestone-project-1/blob/master/assets/images/mockups/Home.png)
 
-## Feautrens
-
+## Feautres
 #### Existing Features
 - separate blog pages and landing pages for user-friendly view experience
 - a simplified landing page for brief writer introduction and contact methods
@@ -35,7 +34,6 @@ See mockups [here](https://github.com/Y-username/milestone-project-1/blob/master
 - make search bar in blog navigation page functional
 - make contact form functional 
 - add comment section at bottom of each blog page
- 
 
 ## Technology Used
 - HTML5

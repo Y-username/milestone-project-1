@@ -60,26 +60,30 @@
                 </div>
             </nav>
         </header>
-        
+
         <!---title and search bar--->
         <section>
             <div class="container clo-s-10 col-lg-8 search-container">
                 <form class="form-inline searchbar">
                     <h4 class="mr-auto ml-1">BLOG</h4>
-                    <div class="searchbox ml-auto mr-2">
-                        <input class="enbed-responsive" type="search" placeholder=" Search.." name="search" aria-label="Search">
-                        <button class="ml-auto" type="submit"><i class="fa fa-search"></i></button>
+                    <div class="searchbox ml-auto">
+                        <div class="input-group">
+                            <input type="search" class="form-control embed-responsive" placeholder=" Search..." name="search" aria-label="search" aria-describedby="search-icon">
+                            <div class="input-group-append">
+                                <span class="btn" type="submit" id="search-icon"><i class="fa fa-search"></i></span>
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
         </section>
-        
+
         <!---main blog--->
         <main class="blog-main">
             <div class="container clo-s-10 col-lg-8 blog-container">
                 <!---blog lists--->
                 <div class="media">
-                    <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=code-coder-coding-270404.jpg&fm=jpg" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
+                    <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?cs=srgb&dl=code-coder-coding-270404.jpg&fm=jpg" class="d-none d-sm-block mr-3" alt="html-picture" width="60px" height="60px">
                     <div class="media-body">
                         <a class="btn" href="blogpage1.html">
                             <h5 class="mt-0">What is HTML?</h5>
@@ -88,7 +92,7 @@
                     </div>
                 </div>
                 <div class="media">
-                    <img src="assets/images/css.png" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
+                    <img src="assets/images/css.png" class="d-none d-sm-block mr-3" alt="html-picture" width="60px" height="60px">
                     <div class="media-body">
                         <a class="btn" href="blogpage2.html">
                             <h5 class="mt-0">What is CSS?</h5>
@@ -97,7 +101,7 @@
                     </div>
                 </div>
                 <div class="media">
-                    <img src="assets/images/javascript.png" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
+                    <img src="assets/images/javascript.png" class="d-none d-sm-block mr-3" alt="html-picture" width="60px" height="60px">
                     <div class="media-body">
                         <a class="btn" href="blogpage3.html">
                             <h5 class="mt-0">What is Javascript?</h5>
@@ -106,7 +110,7 @@
                     </div>
                 </div>
                 <div class="media">
-                    <img src="assets/images/jsbasic.png" class="align-self-start mr-3" alt="html-picture" width="60px" height="60px">
+                    <img src="assets/images/jsbasic.png" class="d-none d-sm-block mr-3" alt="html-picture" width="60px" height="60px">
                     <div class="media-body">
                         <a class="btn" href="blogpage4.html">
                             <h5 class="mt-0">Javascript Basics</h5>
