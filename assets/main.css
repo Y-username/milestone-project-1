@@ -256,9 +256,17 @@ form.searchbar h4 {
     color: #000000b3;
     margin: 0;
 }
-form.searchbar div.searchbox {
-    max-width: 240px;
-    margin: 0;
+form.searchbar .searchbox {
+    max-width:100%%;
+    }
+@media (max-width: 375px) {
+    form.searchbar .searchbox {
+    max-width: 60%;
+    }
+}
+
+span[type=submit] {
+    -webkit-appearance: none;
 }
 
 .blog-main {
