@@ -76,12 +76,16 @@ nav.navbar {
 .homepage-container .jumbotron-row {
     margin-top: 15%
 }
-@media (max-width: 380px) {
+@media (max-width: 360px) {
    .homepage-container .jumbotron-row {
     margin-top: 60%
     } 
 }
-
+@media (max-width: 380px) {
+   .homepage-container .jumbotron-row {
+    margin-top: 35%
+    } 
+}
 .jumbotron {
     background-color: #18181961;
     color: white;

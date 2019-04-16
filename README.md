@@ -20,7 +20,7 @@ The top three purpose are realized by blog pages while the last purpose can be r
 For writer.as the blog navigation page and blog pages as already build, it is easy to use them as template, create new blogs and update the navigation page.<br>
 For audience, the blog page and landing page are clearly separated. They can either browse the blog navigation page and find content they need, or being quickly informed by writer intend, or get connected in multiple ways.
 #### Mockup
-See mockups are [here](assets/images/mockups/Home.png)
+See mockups are [here](https://github.com/Y-username/milestone-project-1/blob/master/assets/images/mockups/Home.png)
 
 ## Feautrens
 
@@ -33,7 +33,9 @@ See mockups are [here](assets/images/mockups/Home.png)
 
 #### Features Left to Implement
 - make search bar in blog navigation page functional
+- make contact form functional 
 - add comment section at bottom of each blog page
+ 
 
 ## Technology Used
 - HTML5
