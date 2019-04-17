@@ -1,7 +1,7 @@
 # Han.YJ | Space
 First milestone project: Han.YJ | Space.<br><br>
 This is a concise blog website with a related landing page to fit for both private and public usage, based on the "less is more" designing mentality.<br>
-And differentiate itself from lots of blogs with too much information and function in the same page, which in the end lead to a underemphasized blog page viewing effect.<br><br>
+And differentiate itself from lots of blogs with too much information and function in the same page, which in the end lead to an underemphasized blog page viewing effect.<br><br>
 The project is mainly consist of two parts: 
 1. landing page with a brief self-introduction and contact form 
 2. blog navigation page and the blog pages
@@ -40,7 +40,7 @@ Please check mockups [here](https://github.com/Y-username/milestone-project-1/bl
 
 ## Technology Used
 - HTML5
-- CSS
+- CSS3
 - Bootstrap 4.3
 
 ## Testing
