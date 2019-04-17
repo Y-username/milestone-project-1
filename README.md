@@ -30,7 +30,7 @@ Please check mockups [here](https://github.com/Y-username/milestone-project-1/bl
 - Logo in each blog page lead back to Blog Navigation page instead of Home page, as a more intuitive function for audience
 - a simplified landing page for brief writer introduction and contact methods
 - multiple button elements in landing page to emphysize and lead audience to blogs
-- attached extra audio for blog contents, to add more detialed information and release audience eyes when they do not want to read.<br>
+- attached extra audio for blog contents, to add more detailed information and release audiences' eyes when they do not want to read.<br>
 Audios are showcase in each page to demonstrate its functionality, so I have make mutiple different audios. Their content will be article related when put to real use.
 - social medias display in both header and footer to increase connection posibilities
 
