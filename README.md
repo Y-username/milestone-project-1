@@ -1,13 +1,14 @@
 # Han.YJ | Space
 First milestone project: Han.YJ | Space.<br><br>
-This is a blog website with a related landing page to fit for both private and public usage.<br>
+This is a concise blog website with a related landing page to fit for both private and public usage, based on the "less is more" designing mentality.<br>
+And differentiate itself from lots of blogs with too much information and function in the same page, which in the end lead to a underemphasized blog page viewing effect.<br><br>
 The project is mainly consist of two parts: 
 1. landing page with a brief self-introduction and contact form 
 2. blog navigation page and the blog pages
 
 ## UX
-#### Audience
-The blog writer and operator is me.<br>
+#### Audience & User
+The blog user is me, who is the writer and operator.<br>
 The main targeted audiences are people who also programming from zero or who intend to start to learn it.<br>
 #### Purpose
 This website is build under the purpose of 
@@ -21,12 +22,12 @@ The top three purpose are realized by blog pages while the last purpose can be r
 For writer, as the blog navigation page and blog pages are already built, it is easy to use them as template, create new blogs and update the navigation page.<br>
 For audience, the blog page and landing page are clearly separated. They can either browse the blog navigation page and find content they need, or being quickly informed by writer intend, or get connected in multiple ways.
 #### Mockup
-Please check mockups [here](https://github.com/Y-username/milestone-project-1/blob/master/assets/images/mockups) or check this repository assets/image/mockups
+Please check mockups [here](https://github.com/Y-username/milestone-project-1/blob/master/assets/images/mockups) or check this repository at assets/image/mockups
 
 ## Feautres
 #### Existing Features
-- separate blog pages and landing pages for user-friendly view experience
-- Logo in each blog page lead back to Blog Navigation page instead of Home page, as a more intuitive function for user
+- separate blog pages and landing pages for audience-friendly and emphatic viewing experience
+- Logo in each blog page lead back to Blog Navigation page instead of Home page, as a more intuitive function for audience
 - a simplified landing page for brief writer introduction and contact methods
 - multiple button elements in landing page to emphysize and lead audience to blogs
 - attached extra audio for blog contents, to add more detialed information and release audience eyes when they do not want to read
@@ -44,7 +45,7 @@ Please check mockups [here](https://github.com/Y-username/milestone-project-1/bl
 
 ## Testing
 #### Responsive testing
-The website is tested in mobile(iphone5, iphone8, Samsung S9), iPad(iPad Air2), laptop(Mac Pro) and monitor(Sharp LCD) size browser. It is well displayed in all device.
+The website is tested in mobile(iphone5, iphone8, Samsung S9 and Andriod phone), iPad(iPad Air2), laptop(Mac Pro) and monitor(Sharp LCD) size browser. It is well displayed in all device.
 #### Different browser testing
 The website is opened in Safari, Google Chrome, FireFox and Internet Explorer, the content is all well displayed.
 #### Function testing
@@ -60,7 +61,7 @@ The website is opened in Safari, Google Chrome, FireFox and Internet Explorer, t
 ##### Content
 - Buttons in each page are all functional. "Read more in blog" button opens blog page in a new tab; "Get in contact" button lead to contact page, "Send Me" button checks if content and email filled in form valid, and work as submit
 - Video and Audio are all functional. Video also support fullscreen
-- Search bar in blog navigation page is not functional at present, but refresh the page when click search icon
+- Search bar in blog navigation page is not functional at present, but displayed on the page for future upgrading
 - Media list in blog navigation page are all clickable, and link to corresponding blog page
 - Content in each page displays responsively
  
